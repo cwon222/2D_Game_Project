@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Button : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float targetTime = 2.0f;
+    float savedTargetTime;
+    public float gasCount;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
+    GameObject SkillButton;
+    GameObject[] SpawnButton;
+
+    public int spawnPointNumber = 1;
+
 }

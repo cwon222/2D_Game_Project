@@ -2349,7 +2349,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_106
+      name: Character_00
       rect:
         serializedVersion: 2
         x: 256
@@ -2370,7 +2370,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_107
+      name: Character_01
       rect:
         serializedVersion: 2
         x: 272
@@ -2727,7 +2727,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_124
+      name: Character_02
       rect:
         serializedVersion: 2
         x: 256
@@ -2748,7 +2748,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_125
+      name: Character_03
       rect:
         serializedVersion: 2
         x: 272
@@ -3105,7 +3105,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_142
+      name: Character_04
       rect:
         serializedVersion: 2
         x: 256
@@ -3126,7 +3126,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_143
+      name: Character_05
       rect:
         serializedVersion: 2
         x: 272
@@ -3483,7 +3483,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_160
+      name: Character_06
       rect:
         serializedVersion: 2
         x: 256
@@ -3504,7 +3504,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_161
+      name: Character_07
       rect:
         serializedVersion: 2
         x: 272
@@ -3861,7 +3861,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_178
+      name: Character_08
       rect:
         serializedVersion: 2
         x: 256
@@ -3882,7 +3882,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_179
+      name: Character_09
       rect:
         serializedVersion: 2
         x: 272
@@ -4134,7 +4134,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_191
+      name: Object_00
       rect:
         serializedVersion: 2
         x: 176
@@ -4155,7 +4155,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_192
+      name: Object_01
       rect:
         serializedVersion: 2
         x: 192
@@ -4176,7 +4176,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_193
+      name: Object_02
       rect:
         serializedVersion: 2
         x: 208
@@ -4197,7 +4197,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_194
+      name: Object_03
       rect:
         serializedVersion: 2
         x: 224
@@ -4218,7 +4218,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_195
+      name: Object_04
       rect:
         serializedVersion: 2
         x: 240
@@ -4239,7 +4239,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_196
+      name: Object_05
       rect:
         serializedVersion: 2
         x: 256
@@ -4260,7 +4260,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_197
+      name: Object_06
       rect:
         serializedVersion: 2
         x: 272
@@ -4291,6 +4291,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Character_00: -58634160
+      Character_01: 1632456872
+      Character_02: -1976955975
+      Character_03: -1223998759
+      Character_04: -315340919
+      Character_05: 601979920
+      Character_06: -808531623
+      Character_07: -1865295065
+      Character_08: 527661697
+      Character_09: -2034896167
+      Object_00: -579077463
+      Object_01: -761837650
+      Object_02: 945167405
+      Object_03: 2117545851
+      Object_04: 131865872
+      Object_05: 212502800
+      Object_06: -1604616475
       Road_01: -1392217134
       Road_02: 1989328267
       Road_03: 579086311
@@ -4316,8 +4333,6 @@ TextureImporter:
       tilemap_packed_103: 1855451669
       tilemap_packed_104: 981264859
       tilemap_packed_105: 341437819
-      tilemap_packed_106: -58634160
-      tilemap_packed_107: 1632456872
       tilemap_packed_11: 297549287
       tilemap_packed_112: 369139612
       tilemap_packed_113: -787085946
@@ -4332,8 +4347,6 @@ TextureImporter:
       tilemap_packed_121: -754055232
       tilemap_packed_122: -1537865762
       tilemap_packed_123: -1579025483
-      tilemap_packed_124: -1976955975
-      tilemap_packed_125: -1223998759
       tilemap_packed_13: -61601279
       tilemap_packed_130: -682959737
       tilemap_packed_131: 1411096868
@@ -4348,8 +4361,6 @@ TextureImporter:
       tilemap_packed_14: 1265048786
       tilemap_packed_140: 1789378638
       tilemap_packed_141: -390102428
-      tilemap_packed_142: -315340919
-      tilemap_packed_143: 601979920
       tilemap_packed_148: 1845805645
       tilemap_packed_149: 82692041
       tilemap_packed_15: 1330633011
@@ -4364,8 +4375,6 @@ TextureImporter:
       tilemap_packed_158: 1739946265
       tilemap_packed_159: 843909034
       tilemap_packed_16: -522925563
-      tilemap_packed_160: -808531623
-      tilemap_packed_161: -1865295065
       tilemap_packed_166: 99072550
       tilemap_packed_167: -567582521
       tilemap_packed_168: -1934580930
@@ -4379,8 +4388,6 @@ TextureImporter:
       tilemap_packed_175: -450665886
       tilemap_packed_176: -418237805
       tilemap_packed_177: -184074882
-      tilemap_packed_178: 527661697
-      tilemap_packed_179: -2034896167
       tilemap_packed_18: 1902783757
       tilemap_packed_180: -635072780
       tilemap_packed_181: 1179127910
@@ -4394,13 +4401,6 @@ TextureImporter:
       tilemap_packed_189: -1673973014
       tilemap_packed_19: 1938088428
       tilemap_packed_190: -2009276449
-      tilemap_packed_191: -579077463
-      tilemap_packed_192: -761837650
-      tilemap_packed_193: 945167405
-      tilemap_packed_194: 2117545851
-      tilemap_packed_195: 131865872
-      tilemap_packed_196: 212502800
-      tilemap_packed_197: -1604616475
       tilemap_packed_2: -1984138512
       tilemap_packed_20: 2009477866
       tilemap_packed_21: -1222981355
