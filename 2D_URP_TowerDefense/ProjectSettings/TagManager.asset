@@ -7,6 +7,14 @@ TagManager:
   - Monster
   - Projectile
   - Soldier
+  - BlueUnit
+  - GoodU1Weapon
+  - EnemyU1Weapon
+  - EnemyU2Weapon
+  - EnemyU3Weapon
+  - RedUnit
+  - GoodU2Weapon
+  - GoodU3Weapon
   layers:
   - Default
   - TransparentFX
@@ -14,8 +22,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Blue
+  - Red
   - 
   - 
   - 
