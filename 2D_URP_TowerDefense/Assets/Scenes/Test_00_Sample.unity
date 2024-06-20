@@ -1819,7 +1819,7 @@ Animator:
   m_GameObject: {fileID: 331161223}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6885d44c527dc9a4f9705abac6631bf8, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1862,7 +1862,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013593197, y: -0.07898247}
+  m_Offset: {x: -0.025267005, y: -0.07898235}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1873,7 +1873,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4970646, y: 7.1606245}
+  m_Size: {x: 0.75848603, y: 7.1606245}
   m_EdgeRadius: 0
 --- !u!50 &331161227
 Rigidbody2D:
@@ -1963,7 +1963,7 @@ Transform:
   m_GameObject: {fileID: 331161223}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.77, y: 0.72, z: 0}
+  m_LocalPosition: {x: 2.7399998, y: 0.6700001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1984,7 +1984,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 859fa1c5f61e1ea4991f476df6916b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 6
+  health: 100
   moveSpeed: 0.25
   unitAnim: {fileID: 331161225}
   shootDist: 0
@@ -2005,7 +2005,7 @@ GameObject:
   - component: {fileID: 360775559}
   m_Layer: 0
   m_Name: Beam
-  m_TagString: GoodU1Weapon
+  m_TagString: EnemyU3Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2559,7 +2559,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013593197, y: -0.07898247}
+  m_Offset: {x: -0.0068017244, y: -0.07898235}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2570,7 +2570,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4970646, y: 7.1606245}
+  m_Size: {x: 0.71461105, y: 7.1606245}
   m_EdgeRadius: 0
 --- !u!50 &398321142
 Rigidbody2D:
@@ -2660,7 +2660,7 @@ Transform:
   m_GameObject: {fileID: 398321138}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.38, y: 0.74, z: 0}
+  m_LocalPosition: {x: -1.3299999, y: 0.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2763,7 +2763,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013593197, y: -0.07898247}
+  m_Offset: {x: 0.01699233, y: -0.07898235}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2774,7 +2774,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4970646, y: 7.1606245}
+  m_Size: {x: 0.73500633, y: 7.1606245}
   m_EdgeRadius: 0
 --- !u!50 &401750732
 Rigidbody2D:
@@ -2864,7 +2864,7 @@ Transform:
   m_GameObject: {fileID: 401750728}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.77, y: 0.8, z: 0}
+  m_LocalPosition: {x: -2.7199998, y: 0.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3923,7 +3923,7 @@ GameObject:
   - component: {fileID: 468679805}
   - component: {fileID: 468679810}
   m_Layer: 0
-  m_Name: RedUnitThree
+  m_Name: RedUnitOne
   m_TagString: RedUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3939,7 +3939,7 @@ Animator:
   m_GameObject: {fileID: 468679803}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6885d44c527dc9a4f9705abac6631bf8, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3982,7 +3982,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013593197, y: -0.07898247}
+  m_Offset: {x: -0.032332182, y: -0.07898235}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3993,7 +3993,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4970646, y: 7.1606245}
+  m_Size: {x: 0.5465226, y: 7.1606245}
   m_EdgeRadius: 0
 --- !u!50 &468679807
 Rigidbody2D:
@@ -4083,7 +4083,7 @@ Transform:
   m_GameObject: {fileID: 468679803}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.26, y: 0.69, z: 0}
+  m_LocalPosition: {x: 4.2300005, y: 0.6400001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4104,7 +4104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 859fa1c5f61e1ea4991f476df6916b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 6
+  health: 100
   moveSpeed: 0.25
   unitAnim: {fileID: 468679805}
   shootDist: 0
@@ -6716,7 +6716,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.063271284, y: -0.8304566}
+  m_Offset: {x: -0.028579354, y: -0.83045673}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6727,7 +6727,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.65652704, y: 8.486145}
+  m_Size: {x: 0.8967521, y: 8.486145}
   m_EdgeRadius: 0
 --- !u!212 &584609562
 SpriteRenderer:
@@ -7038,7 +7038,7 @@ GameObject:
   - component: {fileID: 663005026}
   - component: {fileID: 663005031}
   m_Layer: 0
-  m_Name: RedUnitOne
+  m_Name: RedUnitThree
   m_TagString: RedUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7054,7 +7054,7 @@ Animator:
   m_GameObject: {fileID: 663005024}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6885d44c527dc9a4f9705abac6631bf8, type: 2}
+  m_Controller: {fileID: 9100000, guid: cd2da08d22481304eb6fc52e065fd5bc, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7097,7 +7097,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.013593197, y: -0.07898247}
+  m_Offset: {x: -0.009727657, y: -0.07898235}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7108,7 +7108,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4970646, y: 7.1606245}
+  m_Size: {x: 0.682613, y: 7.1606245}
   m_EdgeRadius: 0
 --- !u!50 &663005028
 Rigidbody2D:
@@ -7198,7 +7198,7 @@ Transform:
   m_GameObject: {fileID: 663005024}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.43, y: 0.77, z: 0}
+  m_LocalPosition: {x: 1.4, y: 0.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -7219,7 +7219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 859fa1c5f61e1ea4991f476df6916b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 6
+  health: 100
   moveSpeed: 0.25
   unitAnim: {fileID: 663005026}
   shootDist: 0
@@ -8194,7 +8194,7 @@ Transform:
   m_GameObject: {fileID: 1056000805}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.17, y: 0.74, z: 0}
+  m_LocalPosition: {x: -4.12, y: 0.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8493,7 +8493,7 @@ GameObject:
   - component: {fileID: 1109682060}
   m_Layer: 0
   m_Name: Beam
-  m_TagString: GoodU1Weapon
+  m_TagString: GoodU2Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9091,7 +9091,7 @@ GameObject:
   - component: {fileID: 1555485529}
   m_Layer: 0
   m_Name: Beam
-  m_TagString: GoodU1Weapon
+  m_TagString: EnemyU2Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9901,7 +9901,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.063271284, y: -0.8304566}
+  m_Offset: {x: 0.0054855347, y: -0.83045673}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9912,7 +9912,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.65652704, y: 8.486145}
+  m_Size: {x: 0.8536787, y: 8.486145}
   m_EdgeRadius: 0
 --- !u!212 &1796233208
 SpriteRenderer:
@@ -10054,7 +10054,7 @@ GameObject:
   - component: {fileID: 1863897262}
   m_Layer: 0
   m_Name: Beam
-  m_TagString: GoodU1Weapon
+  m_TagString: GoodU3Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10258,7 +10258,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.063271284, y: -0.8304566}
+  m_Offset: {x: -0.042710066, y: -0.83045673}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10269,7 +10269,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.65652704, y: 8.486145}
+  m_Size: {x: 0.6423955, y: 8.486145}
   m_EdgeRadius: 0
 --- !u!212 &1903418712
 SpriteRenderer:
@@ -10429,7 +10429,7 @@ GameObject:
   - component: {fileID: 1934735412}
   m_Layer: 0
   m_Name: Beam
-  m_TagString: GoodU1Weapon
+  m_TagString: EnemyU1Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10917,7 +10917,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.063271284, y: -0.8304566}
+  m_Offset: {x: -0.014909446, y: -0.83045673}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10928,7 +10928,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.65652704, y: 8.486145}
+  m_Size: {x: 0.8400818, y: 8.486145}
   m_EdgeRadius: 0
 --- !u!212 &2104915028
 SpriteRenderer:
@@ -11216,7 +11216,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.063271284, y: -0.8304566}
+  m_Offset: {x: -0.0035729706, y: -0.83045673}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11227,7 +11227,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.65652704, y: 8.486145}
+  m_Size: {x: 0.82586604, y: 8.486145}
   m_EdgeRadius: 0
 --- !u!212 &2143729477
 SpriteRenderer:
@@ -11298,6 +11298,6 @@ SceneRoots:
   - {fileID: 1056000811}
   - {fileID: 401750734}
   - {fileID: 398321144}
-  - {fileID: 663005030}
-  - {fileID: 331161229}
   - {fileID: 468679809}
+  - {fileID: 331161229}
+  - {fileID: 663005030}

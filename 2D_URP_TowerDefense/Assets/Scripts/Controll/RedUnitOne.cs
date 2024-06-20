@@ -31,7 +31,7 @@ public class RedUnitOne : MonoBehaviour
 
         if(hit.collider != null)
         {
-            if(hit == GameObject.FindGameObjectWithTag("Blue"))
+            if(hit == GameObject.FindGameObjectWithTag("BlueUnit"))
             {
                 unitAnim.Play("RedUnitOneAttack");
                 moveSpeed = 0;
