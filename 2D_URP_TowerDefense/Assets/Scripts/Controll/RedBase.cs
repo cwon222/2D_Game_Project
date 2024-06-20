@@ -18,11 +18,6 @@ public class RedBase : MonoBehaviour
     public GameObject gameOverScene;
     public Slider slider;
 
-    private void Awake()
-    {
-        
-    }
-
     // Start is called before the first frame update
     void Start()
     {
