@@ -157,10 +157,32 @@ public class GameControllerSC : MonoBehaviour
         gasCount -= 8;
         gasCountText.text = gasCount.ToString();
         //bluePlane.attackPlane();
+        SpawnPlane();   // 임시 코드
     }
 
     public void restartGame()
     {
         SceneManager.LoadScene(0);
+    }
+
+    // 임시 코드 ---------------------------------------------
+    public GameObject unitThree;
+    void SpawnPlane()
+    {
+        if (spawnPointNumber == 1)
+        {
+            Instantiate(unitThree, spawnPointOne.position, spawnPointOne.rotation, transform);
+            spawnPointNumber = 2;
+        }
+        else if (spawnPointNumber == 2)
+        {
+            Instantiate(unitThree, spawnPointTwo.position, spawnPointTwo.rotation, transform);
+            spawnPointNumber = 3;
+        }
+        else if (spawnPointNumber == 3)
+        {
+            Instantiate(unitThree, spawnPointThree.position, spawnPointThree.rotation, transform);
+            spawnPointNumber = 1;
+        }
     }
 }
