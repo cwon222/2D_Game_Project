@@ -27,7 +27,7 @@ public class RedUnitOne : MonoBehaviour
 
         rb.velocity = new Vector2(-moveSpeed, rb.velocity.y);
 
-        RaycastHit2D hit = Physics2D.Raycast(firePoint.position, -firePoint.right, shootDist, hittableLayer);
+        RaycastHit2D hit = Physics2D.Raycast(firePoint.position, firePoint.right, shootDist, hittableLayer);
 
         if(hit.collider != null)
         {
@@ -36,11 +36,11 @@ public class RedUnitOne : MonoBehaviour
                 unitAnim.Play("RedUnitOneAttack");
                 moveSpeed = 0;
             }
-            else
-            {
-                unitAnim.Play("RedUnitOneStil");
-                moveSpeed = 0.25f;
-            }
+        }
+        else
+        {
+            unitAnim.Play("RedUnitOneStil");
+            moveSpeed = 0.25f;
         }
     }
 

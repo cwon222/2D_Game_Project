@@ -36,11 +36,11 @@ public class BlueUnitOne : MonoBehaviour
                 unitAnim.Play("BlueUnitOneAttack");
                 moveSpeed = 0;
             }
-            else
-            {
-                unitAnim.Play("BlueUnitOneStil");
-                moveSpeed = 0.25f;
-            }
+        }
+        else
+        {
+            unitAnim.Play("BlueUnitOneStil");
+            moveSpeed = 0.25f;
         }
     }
 

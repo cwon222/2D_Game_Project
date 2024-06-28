@@ -15,6 +15,9 @@ TagManager:
   - RedUnit
   - GoodU2Weapon
   - GoodU3Weapon
+  - test1
+  - test2
+  - test3
   layers:
   - Default
   - TransparentFX
