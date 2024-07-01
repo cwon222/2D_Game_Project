@@ -348,7 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 859fa1c5f61e1ea4991f476df6916b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 6
   moveSpeed: 0.25
   unitAnim: {fileID: 2145453083206838}
   shootDist: 0
